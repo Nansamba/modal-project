@@ -1,7 +1,10 @@
 <template>
+<div>
   <h1> ninja Reation timer</h1> 
   <button @click= "start"> play </button>
-  <Block v-if= "isPlaying" :delay= "delay"/>
+  <Block v-if="isPlaying" :delay="delay"/>
+</div>
+
 </template>
 
 <script>
